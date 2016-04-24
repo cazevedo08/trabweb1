@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Cliente</title>
+<style type="text/css" >
+body {
+	background: #D8BFD8 url(img/orqui_fundo.jpg);
+	position: relative;
+	width: 100;
+	margin: 0 auto;
+}
+.geral {
+	margin: 50px;
+		
+}
+
+</style>
+</head>
+<body>
+    <div class="geral" >
+	<h1>Bem Vindo ao Orquidário Online</h1>
+	
+		<p>Cadastre-se para receber nosso catálogo</p>
+		
+	<form action="usucontrol.do" method="post" >
+		<label>Nome Completo:</label>
+		<input type="text" name="txtnome" value="" size="50"/><br/><br/>
+		
+		<label>Crie seu login:</label>
+		<input type="text" name="txtlogin" value="" size="20"/><br/><br/>
+		
+		<label>Crie sua senha (até 6 dígitos):</label>
+		<input type="password" name="txtsenha" value="" maxlength="6"/><br/><br/>
+		
+		<label>e-mail:</label>
+		<input type="email" name="txtmail" value="" maxlength="40"/><br/><br/>
+		
+		<label>Telefone:</label>
+		<input type="tel" name="txttel" value="" maxlength="9"/><br/><br/>
+		 	
+		<input type="submit" value="salvar" />
+	</form>
+	
+	</div>
+</body>
+</html>
